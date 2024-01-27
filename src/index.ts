@@ -6,14 +6,13 @@ import { join, resolve } from 'path';
 import { existsSync } from 'fs';
 import { tmpdir } from 'os';
 
-function hermesc(options?: { hermesc: string }): Plugin {
+function hermesc(options?: { hermesc: string; }): Plugin {
 	const { hermesc } = options ?? { hermesc: join(__dirname, '..', '..', 'discord-hermesc') };
 
 	return {
 		name: 'hermesc',
 
 		async generateBundle(options: NormalizedOutputOptions, bundle: OutputBundle, isWrite: boolean) {
-			console.log(hermesc);
 			try {
 				await access(hermesc);
 			} catch (e) {
@@ -84,4 +83,4 @@ function hermesc(options?: { hermesc: string }): Plugin {
 	};
 }
 
-export default hermesc;
+export = hermesc;

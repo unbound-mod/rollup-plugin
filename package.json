@@ -1,6 +1,6 @@
 {
-	"name": "@unbound/rollup-plugin",
-	"version": "1.0.0",
+	"name": "@unboundmod/rollup-plugin",
+	"version": "1.0.5",
 	"description": "Compile JavaScript bundles to hermes binaries.",
 	"main": "dist/index.js",
 	"scripts": {
@@ -9,6 +9,9 @@
 	"files": [
 		"dist/index.js"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"author": "eternal",
 	"license": "Unlicensed",
 	"devDependencies": {

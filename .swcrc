@@ -36,33 +36,6 @@
 			"react": {
 				"useBuiltins": true
 			}
-		},
-		"baseUrl": "src",
-		"paths": {
-			"@utilities": [
-				"utilities/index.ts"
-			],
-			"@utilities/*": [
-				"utilities/*"
-			],
-			"@config": [
-				"../config.json"
-			],
-			"@constants": [
-				"constants.ts"
-			],
-			"@lib/*": [
-				"lib/*"
-			],
-			"@lib": [
-				"lib/index.ts"
-			],
-			"@typings/*": [
-				"../typings/*"
-			],
-			"@src/*": [
-				"*"
-			]
 		}
 	}
 }

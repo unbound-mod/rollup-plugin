@@ -4,7 +4,7 @@
 	"description": "Compile JavaScript bundles to hermes binaries.",
 	"main": "dist/index.js",
 	"scripts": {
-		"build": "swc src -d dist -D --delete-dir-on-start"
+		"build": "swc src -d dist -D --delete-dir-on-start --strip-leading-paths"
 	},
 	"files": [
 		"dist/index.js"

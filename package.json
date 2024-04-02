@@ -12,7 +12,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"author": "Mario <mariovparaschiv@gmail.com> (github.com/localip)",
+	"author": "Mario <me@marioparaschiv.com> (github.com/marioparaschiv)",
 	"license": "Unlicensed",
 	"devDependencies": {
 		"@swc/cli": "^0.1.63",

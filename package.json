@@ -1,5 +1,5 @@
 {
-	"name": "@unboundmod/rollup-plugin",
+	"name": "@unbound-mod/rollup-plugin",
 	"version": "1.0.5",
 	"description": "Compile JavaScript bundles to hermes binaries.",
 	"main": "dist/index.js",
@@ -21,6 +21,6 @@
 		"rollup": "^4.7.0"
 	},
 	"dependencies": {
-		"discord-hermesc": "*"
+		"@unbound-mod/hermesc": "*"
 	}
 }

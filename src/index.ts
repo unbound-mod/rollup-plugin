@@ -7,7 +7,7 @@ import { existsSync } from 'fs';
 import { tmpdir } from 'os';
 
 function hermesc(options?: { hermesc: string; }): Plugin {
-	const { hermesc } = options ?? { hermesc: join(__dirname, '..', '..', '@unbound-mod', 'hermesc') };
+	const { hermesc } = options ?? { hermesc: join(__dirname, '..', '..', 'hermesc') };
 
 	return {
 		name: 'hermesc',
